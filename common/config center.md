@@ -246,9 +246,9 @@ Disconf部署为前后端分离项目，后端基于MySQL、Redis、Tomcat、Zoo
   <tbody>
     <tr>
       <td>配置实时推送</td>
-      <td>支持(HTTP长轮询1s内)</td>
-      <td>支持(HTTP长轮询1s内)</td>
-      <td>支持</td>
+      <td>http long polling拉取监听</td>
+      <td>2.0长连接拉取监听，1.0http long polling拉取监听</td>
+      <td>HTTP拉取，Zookeeper长连接监听</td>
     </tr>
     <tr>
       <td>版本管理</td>
@@ -265,7 +265,7 @@ Disconf部署为前后端分离项目，后端基于MySQL、Redis、Tomcat、Zoo
     <tr>
       <td>灰度发布</td>
       <td>支持</td>
-      <td>支持&#xff08;不太好用&#xff09;</td>
+      <td>支持</td>
       <td>不支持</td>
     </tr>
     <tr>
